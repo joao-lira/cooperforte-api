@@ -1,6 +1,8 @@
 require('dotenv').config({
-  path: process.env.NODE_ENV === 'development' ? '.env.test' : '.env'
+  path: process.env.NODE_ENV === 'production' ? '.env' : '.env.stage'
 })
+
+console.log(process.env.NODE_ENV)
 
 const util = require('util')
 const mysql = require('mysql')

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=development && nodemon src/server.js"
+    "start": "set NODE_ENV=production && node src/server.js"
   },
   "author": "joao-lira <joaopaulo@ilevel.com.br>",
   "license": "MIT",
@@ -16,7 +16,5 @@
     "moment": "^2.24.0",
     "mysql": "^2.17.1"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.4"
-  }
+  "devDependencies": {}
 }
