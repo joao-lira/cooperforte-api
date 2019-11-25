@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=production && node src/server.js"
+    "start": "set NODE_ENV=dev && node src/server.js"
   },
   "author": "joao-lira <joaopaulo@ilevel.com.br>",
   "license": "MIT",
