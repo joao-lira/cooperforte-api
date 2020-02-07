@@ -39,8 +39,9 @@ project
 
 <details>
   <summary>Estrutura de um componente</summary>
-  
-  > _Lembre-se de incluir um comentário no início do seu componente, explicando a finalidade, e, no final do arquivo deixe um exemplo de uso_
+  <br />
+
+  > _Importante! Inclua um comentário no início do seu componente explicando sua finalidade. E, no final do arquivo deixe um exemplo de uso_
 
   ```javascript
 import React from "react";
@@ -58,7 +59,7 @@ export default function Button({ title, bgColor }) {
 }
 
 /**
- * Exemplo de uso:
+Exemplo de uso:
 import Button from '~/components/generic-components/Button'
 <Button
   title="Cadastrar"
