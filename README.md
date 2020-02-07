@@ -8,25 +8,12 @@ Veja o que a Arqprefix te traz como resultado.
 #### Estrutura do projeto a partir da pasta src
 <details>
 
-<summary>Summary text.</summary>
+<summary>src</summary>
 
 <code style="white-space:nowrap;">Hello World, how is it going?</code>
 
 </details>
-```
-|__ src
-  |__ assets
-     |__ generic-icons
-     |__ generic-images
-  |__ components
-     |__ generic-components
-     |__ page-components
-  |__ config
-  |__ pages
-  |__ services
-  |__ styles
-  |__ routes
-  |__ util
+
 ```
 #### Quando criar um componente
 -- _Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie o componente_
