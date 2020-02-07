@@ -43,7 +43,7 @@ project
 
   > _Importante! Inclua um comentário no início do seu componente explicando sua finalidade. E, no final do arquivo deixe um exemplo de uso_
 
-  ```javascript
+  ```java
 import React from "react";
 import { View, Text } from "react-native";
 
@@ -51,22 +51,21 @@ import { View, Text } from "react-native";
  * Comentário sobre a finalidade do componente aqui
  */
 export default function Button({ title, bgColor }) {
-  return (
-    <View>
-      <Text style={bgColor}>{title}</Text>
-    </View>
-  );
+    return (
+      <View>
+        <Text style={bgColor}>{title}</Text>
+      </View>
+    )
 }
 
 /**
 Exemplo de uso:
 import Button from '~/components/generic-components/Button'
 <Button
-  title="Cadastrar"
-  bgColor="Styles.bgSuccess"
+   title="Cadastrar"
+   bgColor="Styles.bgSuccess"
 />
  */
 ```
 </details>
 
-adsf
