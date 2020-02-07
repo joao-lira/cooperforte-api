@@ -29,6 +29,15 @@ project
 
 
 #### Quando criar um componente
-_Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie o componente_
+_Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
 * 1° Meu código repetiu mais de 2 vezes?
 * 2° Este trecho de código pode ser reutilizado no projeto?
+
+
+<code>
+export default function Button() {
+}
+</code>
+
+
+
