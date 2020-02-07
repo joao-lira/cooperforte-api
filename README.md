@@ -34,10 +34,38 @@ _Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
 * 2° Este trecho de código pode ser reutilizado no projeto?
 
 
-<code>
-export default function Button() {
+```javascript
+import React from "react";
+import { View, Text } from "react-native";
+
+/**
+ * Comentário sobre a finalidade
+ * do componente aqui
+ */
+export default function Button({ title, bgColor }) {
+  return (
+    <View>
+      <Text style={bgColor}>{title}</Text>
+    </View>
+  );
 }
-</code>
+
+/**
+ * Exemplo de uso:
+import Button from '~/components/generic-components/Button'
+<Button
+  title="Cadastrar"
+  bgColor="Styles.bgSuccess"
+/>
+ */
+
+```
+
+
+asdf
+
+
+adsf
 
 
 
