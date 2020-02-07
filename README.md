@@ -27,23 +27,29 @@ project
     │   file022.txt
 ```
 
+## Componentes
 
-#### Quando criar um componente
-_Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
-* 1° Meu código repetiu mais de 2 vezes?
-* 2° Este trecho de código pode ser reutilizado no projeto?
+<details>
+	<summary>
+		Quando criar um componente
+    </summary>
+    _Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
+    * 1° Meu código repetiu mais de 2 vezes?
+    * 2° Este trecho de código pode ser reutilizado no projeto?
+</details>
 
-
-#### Estrutura que o componente deve ter
-_Lembre-se de incluir um comentário no início do seu componente, explicando a finalidade e no final do arquivo deixe um exemplo de uso_
+<details>
+	<summary>
+		Estrutura de um componente
+    </summary>
+    _Lembre-se de incluir um comentário no início do seu componente, explicando a finalidade e no final do arquivo deixe um exemplo de uso_
 
 ```javascript
 import React from "react";
 import { View, Text } from "react-native";
 
 /**
- * Comentário sobre a finalidade
- * do componente aqui
+ * Comentário sobre a finalidade do componente aqui
  */
 export default function Button({ title, bgColor }) {
   return (
@@ -63,6 +69,16 @@ import Button from '~/components/generic-components/Button'
  */
 
 ```
+</details>
+
+#### Quando criar um componente
+_Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
+* 1° Meu código repetiu mais de 2 vezes?
+* 2° Este trecho de código pode ser reutilizado no projeto?
+
+
+#### Estrutura que o componente deve ter
+
 
 
 asdf
