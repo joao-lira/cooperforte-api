@@ -43,7 +43,7 @@ project
 
   > _Importante! Inclua um comentário no início do seu componente explicando sua finalidade. E, no final do arquivo deixe um exemplo de uso_
 
-  ```java
+  ```javascript
 import React from "react";
 import { View, Text } from "react-native";
 
