@@ -34,6 +34,9 @@ _Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
 * 2° Este trecho de código pode ser reutilizado no projeto?
 
 
+#### Estrutura que o componente deve ter
+_Lembre-se de incluir um comentário no início do seu componente, explicando a finalidade e no final do arquivo deixe um exemplo de uso_
+
 ```javascript
 import React from "react";
 import { View, Text } from "react-native";
