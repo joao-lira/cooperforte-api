@@ -1,4 +1,5 @@
 # Bem-vinda(o) a Arqprefix
+
 Objetivo: Ter a menor curva possível para a sintonia de novos devs com o time, seja você júnior, pleno, sênior, brabo ou brabíssimo.
 
 Veja o que a Arqprefix te traz como resultado.
@@ -7,11 +8,10 @@ Veja o que a Arqprefix te traz como resultado.
 
 #### Estrutura do projeto a partir da pasta src
 
-
 ```
 project
 │   README.md
-│   file001.txt    
+│   file001.txt
 │
 └───folder1
 │   │   file011.txt
@@ -21,7 +21,7 @@ project
 │       │   file111.txt
 │       │   file112.txt
 │       │   ...
-│   
+│
 └───folder2
     │   file021.txt
     │   file022.txt
@@ -30,21 +30,19 @@ project
 ## Componentes
 
 <details>
-	<summary>
-		Quando criar um componente
-    </summary>
-    _Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
-    * 1° Meu código repetiu mais de 2 vezes?
-    * 2° Este trecho de código pode ser reutilizado no projeto?
+  <summary>Quando criar um componentes</summary>
+  
+  ##### Faça duas perguntas a si mesmo, se a resposta de ambas for sim. Crie!
+  1. Meu código repetiu mais de 2 vezes?
+  2. Este trecho de código pode ser reutilizado no projeto?
 </details>
 
 <details>
-	<summary>
-		Estrutura de um componente
-    </summary>
-    _Lembre-se de incluir um comentário no início do seu componente, explicando a finalidade e no final do arquivo deixe um exemplo de uso_
+  <summary>Estrutura de um componente</summary>
+  
+  > _Lembre-se de incluir um comentário no início do seu componente, explicando a finalidade, e, no final do arquivo deixe um exemplo de uso_
 
-```javascript
+  ```javascript
 import React from "react";
 import { View, Text } from "react-native";
 
@@ -67,24 +65,7 @@ import Button from '~/components/generic-components/Button'
   bgColor="Styles.bgSuccess"
 />
  */
-
 ```
 </details>
 
-#### Quando criar um componente
-_Faça duas perguntas a si mesmo, se a resposta de ambas for SIM. Crie!_
-* 1° Meu código repetiu mais de 2 vezes?
-* 2° Este trecho de código pode ser reutilizado no projeto?
-
-
-#### Estrutura que o componente deve ter
-
-
-
-asdf
-
-
 adsf
-
-
-
