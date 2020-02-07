@@ -30,7 +30,7 @@ project
 ## Componentes
 
 <details>
-  <summary>Quando criar um componentes</summary>
+  <summary>Componente avançado</summary>
   
   ##### Faça duas perguntas a si mesmo, se a resposta de ambas for sim. Crie!
   1. Meu código repetiu mais de 2 vezes?
@@ -41,9 +41,9 @@ project
   <summary>Estrutura de um componente</summary>
   <br />
 
-  > _Importante! Inclua um comentário no início do seu componente explicando sua finalidade. E, no final do arquivo deixe um exemplo de uso_
+> _Importante! Inclua um comentário no início do seu componente explicando sua finalidade. E, no final do arquivo deixe um exemplo de uso_
 
-  ```javascript
+```javascript
 import React from "react";
 import { View, Text } from "react-native";
 
@@ -51,21 +51,29 @@ import { View, Text } from "react-native";
  * Comentário sobre a finalidade do componente aqui
  */
 export default function Button({ title, bgColor }) {
-    return (
-      <View>
-        <Text style={bgColor}>{title}</Text>
-      </View>
-    )
+  return (
+    <View>
+      <Text style={bgColor}>{title}</Text>
+    </View>
+  );
 }
 
 /**
 Exemplo de uso:
 import Button from '~/components/generic-components/Button'
 <Button
-   title="Cadastrar"
-   bgColor="Styles.bgSuccess"
+ title="Cadastrar"
+ bgColor="Styles.bgSuccess"
 />
- */
+*/
 ```
+
 </details>
 
+<details>
+  <summary>Componente avançado</summary>
+  <br/>
+
+> _Importante! Inclua um comentário no início do seu componente explicando sua finalidade. E, no final do arquivo deixe um exemplo de uso_
+
+</details>
