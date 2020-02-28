@@ -11,13 +11,9 @@ Objetivos
 
 Com a Arqprefix aplicada você terá este resultado.
 
-```
-IMAGEM AQUI
-```
+![](/images/search-profile.png)
 
-_Com um simples <code>ctrl + p</code> | <code>command + p</code> no vs code, você enxerga a sua jornada de ponta a ponta_
-
-#### Estrutura do projeto a partir da pasta src
+_Com um simples <code>ctrl + p</code> | <code>command + p</code> no vs code, você enxerga a sua jornada e os componentes dela de ponta a ponta_
 
 #### Mão na massa!
 
@@ -25,14 +21,17 @@ _Com um simples <code>ctrl + p</code> | <code>command + p</code> no vs code, voc
   <summary>Entenda a estrutura</summary>
   <br />
 
-  > Regra - diretórios/pastas sempre em minúsculo, e componentes/arquivos com inicial maiúscula
+Importante!
+
+> - Diretórios sempre em minúsculo,
+> - Componentes/Arquivos com inicial maiúscula
 
 ![](/images/project.png)
 
 </details>
 
 <details>
-  <summary>Rotas</summary>
+  <summary>Organizando <b>Rotas</b> preparando para o crescimento do projeto</summary>
   
 ```javascript
 import { createAppContainer } from 'react-navigation'
@@ -44,22 +43,22 @@ import Stack from '~/router/navigators-stack/Stack'
 import TabsHome from '~/router/navigators-tab/TabsHome'
 
 const createRootNavigator = (userLogged = false) =>
-  createAppContainer(
-    createStackNavigator(
-      {
-        DrawerHome,
-        Stack,
-        TabsHome
-      },
-      {
-        initialRouteName: userLogged ? 'TabsHome' : 'DrawerHome',
-        defaultNavigationOptions: {
-          gesturesEnabled: true
-        },
-        headerMode: 'none'
-      }
-    )
-  )
+createAppContainer(
+createStackNavigator(
+{
+DrawerHome,
+Stack,
+TabsHome
+},
+{
+initialRouteName: userLogged ? 'TabsHome' : 'DrawerHome',
+defaultNavigationOptions: {
+gesturesEnabled: true
+},
+headerMode: 'none'
+}
+)
+)
 
 export default createRootNavigator
 
@@ -67,14 +66,18 @@ export default createRootNavigator
 </details>
 
 <details>
-<summary>Criando uma view</summary>
+  <summary>Criando uma view</summary>
+  <br />
 
-> Regra - diretórios/pastas sempre em minúsculo, e componentes/arquivos com inicial maiúscula
+  Importante!
+
+  > - Diretórios sempre em minúsculo,
+  > - Componentes/Arquivos com inicial maiúscula
 
 Botão direito na pasta pages <code>new file</code> e digite profile/Profile.js
 
 - profile (é o diretório)
-- Profile.js (é o componente)
+- Profile.js (é o componente deste diretório)
 
 
 ```javascript
