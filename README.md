@@ -23,7 +23,8 @@ _Com um simples <code>ctrl + p</code> | <code>command + p</code> no vs code, voc
 
 <details>
   <summary>Entenda a estrutura</summary>
-  
+  <br />
+
   > Regra - diretórios/pastas sempre em minúsculo, e componentes/arquivos com inicial maiúscula
 
 ![](/images/project.png)
@@ -43,22 +44,22 @@ import Stack from '~/router/navigators-stack/Stack'
 import TabsHome from '~/router/navigators-tab/TabsHome'
 
 const createRootNavigator = (userLogged = false) =>
-createAppContainer(
-createStackNavigator(
-{
-DrawerHome,
-Stack,
-TabsHome
-},
-{
-initialRouteName: userLogged ? 'TabsHome' : 'DrawerHome',
-defaultNavigationOptions: {
-gesturesEnabled: true
-},
-headerMode: 'none'
-}
-)
-)
+  createAppContainer(
+    createStackNavigator(
+      {
+        DrawerHome,
+        Stack,
+        TabsHome
+      },
+      {
+        initialRouteName: userLogged ? 'TabsHome' : 'DrawerHome',
+        defaultNavigationOptions: {
+          gesturesEnabled: true
+        },
+        headerMode: 'none'
+      }
+    )
+  )
 
 export default createRootNavigator
 
