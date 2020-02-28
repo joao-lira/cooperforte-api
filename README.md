@@ -4,10 +4,10 @@
 
 Objetivos
 
-- Ser simples :) (fundamental)
+- Ser simples :wink: (fundamental)
 - Ter a menor curva para a sintonia de novos devs com o time
 - Pense no próximo (sabemos que você é fera! Mas, outros devs vão entender o que vc produziu?)
-- Clean Code de ponta-a-ponta <3
+- :snowflake: Clean Code de ponta-a-ponta :snowflake:
 
 Com a Arqprefix aplicada você terá este resultado.
 
